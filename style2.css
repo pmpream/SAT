@@ -1,0 +1,23 @@
+.box {
+    border: 6px solid #999; 
+    margin: 30px auto 0; 
+    padding: 20px; 
+    width: 1000px; 
+    height: 250px;
+    overflow: scroll;
+}
+.box ul {
+    margin: 0; padding: 0; list-style: none;
+}
+.box li {
+    display: block; 
+    border-bottom: 1px dashed #ddd;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.box li:last-child {
+    border-bottom: 0 dashed #ddd;
+}
+.box span {
+    color: #888;
+}
